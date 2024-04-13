@@ -10,7 +10,8 @@
   "author": "ahmutkadim",
   "license": "ISC",
   "dependencies": {
-    "kaboom": "^3000.1.17"
+    "kaboom": "^3000.1.17",
+    "tiledimporter-kaboom": "^0.1.0"
   },
   "devDependencies": {
     "esbuild": "^0.20.2"

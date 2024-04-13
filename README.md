@@ -6,6 +6,13 @@ This is an [Kaboom](https://kaboomjs.com) plugin that allows to import [Tiled ma
 
 This extension relies upon parsing maps as json data. File extension does not have to be json, `.tmj` and `.tsj` will work just fine.
 
+## Installation
+
+This plugin exists as a single file, just copy [tiledImporter.js](/lib/tiledImporter.js) to your project and reference it or better yet install it from npm:
+```
+npm i tiledimporter-kaboom
+```
+
 ## Importing Json Data
 
 If you want, you can parse json on your code however, this plugin also supports loading it from a path via fetch api.
