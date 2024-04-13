@@ -20,5 +20,7 @@ For importing components, custom properties set on Tiled is primarily used for i
 
 ## Usage
 
-Please check out the [example](example/main.js) and the [documentation](lib/README.md).
+Please check out the [example source code](example/main.js) and the [documentation](lib/README.md). You can see the preview of the example [here](https://ahmutkadim.github.io/TiledImporter-Kaboom/).
+
+
 
