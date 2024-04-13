@@ -1,0 +1,11 @@
+{
+  "name": "tiledimporter-kaboom",
+  "version": "0.1.0",
+  "description": "this is an kaboom.js plugin that allows importing tiled map editor maps to kaboom game",
+  "main": "tiledImporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmutkadim",
+  "license": "MIT"
+}
