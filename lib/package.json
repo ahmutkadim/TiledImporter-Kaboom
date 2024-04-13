@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ahmutkadim",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmutkadim/TiledImporter-Kaboom.git"
+  },
+  "keywords": [
+    "kaboomjs",
+    "koboom",
+    "tiled"
+  ]
 }
