@@ -79,16 +79,16 @@ All of these methods have somethings in common:
 * All of them can take a `gameObject` parameter where the game object is specified to implement the layer to. If not specified new one will be created.
 
 ``` js
-importer.addTileLayer(layerIndex, sourceImage, tilesetIndex, gameObject)
+importer.addTileLayer(layerIndex, sourceImage, tilesetIndex, gameObject, optimizationMode)
 importer.addObjectLayer(layerIndex, gameObject)
 ```
 Both of these methods take `layerIndex` as returned from `getLayerIndex` method.
-`sourceImage` refers to the kaboom sprite name implemented while loading the sprite. Such resources must be implement in your code. `TilesetIndex` is the index of tileset returned from `getTilesetIndex` method.
+`sourceImage` refers to the kaboom sprite name implemented while loading the sprite. Such resources must be implement in your code. `TilesetIndex` is the index of tileset returned from `getTilesetIndex` method. `optimizeMode` is for solid tiles who will be covered with static body/area components. Since each tile will have its own body component, it might impact performance. This paremeter can allow collision objects expand horizontally or vertically to reduce their numbers. This paremeter accepts an enumeration defined at the tiledImporter class called: `optimizationModes`. It has values of `VERTICAL`, `HORIZONTAL`, `NONE`.
 
 ```js
-importer.addAllLayers(gameObject, sourceImage, tilesetIndex)
+importer.addAllLayers(gameObject, sourceImage, tilesetIndex, optimizationMode)
 ```
-This method loads all layers from the map but there is an condition, all tile layer must use the same `sourceImage` and `tilesetIndex` as required by the method.
+This method loads all layers from the map but there is an condition, all tile layer must use the same `sourceImage`, `tilesetIndex` and `optimizationMode` as required by the method.
 
 ### Tiled Custom Properties
 

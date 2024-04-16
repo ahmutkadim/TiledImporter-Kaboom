@@ -1,5 +1,5 @@
 import kaboom from "kaboom";
-import tiledImporter from "tiledimporter-kaboom";
+import tiledImporter from "../lib/tiledImporter.js";
 
 const k = kaboom({
     width: 640,
@@ -36,8 +36,11 @@ async function main(){
     // get object layer with just naem
     let objectLayerId = importer.getLayerIndex("materials")
     let mainObj
-    // add tile layer
-    mainObj = importer.addTileLayer(tileLayerId, "tiles", tileId, null)
+    // add tile layer with optimization of horizontal combining
+    mainObj = importer.addTileLayer(tileLayerId, "tiles", tileId, null, importer.optimizationModes.HORIZONTAL)
+    // for vertical optimization
+    //mainObj = importer.addTileLayer(tileLayerId, "tiles", tileId, null, importer.optimizationModes.VERTICAL)
+    
     // add object layer
     mainObj = importer.addObjectLayer(objectLayerId, mainObj)
 }
