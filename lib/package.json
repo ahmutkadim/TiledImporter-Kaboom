@@ -1,20 +1,20 @@
 {
-  "name": "tiledimporter-kaboom",
-  "version": "0.2.0",
-  "description": "this is an kaboom.js plugin that allows importing tiled map editor maps to kaboom game",
-  "main": "tiledImporter.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "ahmutkadim",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ahmutkadim/TiledImporter-Kaboom.git"
-  },
-  "keywords": [
-    "kaboomjs",
-    "koboom",
-    "tiled"
-  ]
+    "name": "tiledimporter-kaboom",
+    "version": "0.3.0",
+    "description": "this is an kaboom.js plugin that allows importing tiled map editor maps to kaboom game",
+    "main": "tiledImporter.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ahmutkadim",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ahmutkadim/TiledImporter-Kaboom.git"
+    },
+    "keywords": [
+        "kaboomjs",
+        "koboom",
+        "tiled"
+    ]
 }

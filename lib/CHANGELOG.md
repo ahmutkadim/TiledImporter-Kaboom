@@ -1,4 +1,5 @@
-# Version 0.2.0
+# Version 0.3.0
 
-* Added tile collision optimization via reducing amount of collision objects added. (See the example on the repo for better understanding.)
-* `tileLayer`tag has been added to solid tiles to make them ignore collisions with each other, improving performance.
+* Added rendering optimization to tileLayers with the option of drawing all layer in one draw call. Optimized for rendering what camera views.
+* Prettier extension implemented, code looks more clear now.
+* added moving camera to the example, check it out from the repository.

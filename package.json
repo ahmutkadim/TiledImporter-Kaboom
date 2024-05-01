@@ -1,19 +1,19 @@
 {
-  "name": "tiledimporter-kaboom-example-projec",
-  "version": "0.2.0",
-  "description": "This is an example project that illustrates how this plugin works.",
-  "main": "dist/index.html",
-  "scripts": {
-    "dev": "esbuild --bundle example/main.js --outfile=dist/app.js --servedir=dist --watch",
-    "bundle": "esbuild --bundle example/main.js --outfile=dist/app.js --minify"
-  },
-  "author": "ahmutkadim",
-  "license": "MIT",
-  "dependencies": {
-    "kaboom": "^3000.1.17",
-    "tiledimporter-kaboom": "^0.1.0"
-  },
-  "devDependencies": {
-    "esbuild": "^0.20.2"
-  }
+    "name": "tiledimporter-kaboom-example-projec",
+    "version": "0.3.0",
+    "description": "This is an example project that illustrates how this plugin works.",
+    "main": "dist/index.html",
+    "scripts": {
+        "dev": "esbuild --bundle example/main.js --outfile=dist/app.js --servedir=dist --watch",
+        "bundle": "esbuild --bundle example/main.js --outfile=dist/app.js --minify"
+    },
+    "author": "ahmutkadim",
+    "license": "MIT",
+    "dependencies": {
+        "kaboom": "^3000.1.17",
+        "tiledimporter-kaboom": "^0.1.0"
+    },
+    "devDependencies": {
+        "esbuild": "^0.20.2"
+    }
 }
